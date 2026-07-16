@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TrueTail — Real Ingredients. True Love.</title>
+<meta name="description" content="TrueTail natural dog treats — chicken & sweet potato, grain-free, made with real ingredients and true love.">
+<link rel="icon" href="images/logo-dark.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="grain-overlay"></div>
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<div class="loader" id="loader">
+  <div class="loader-inner">
+    <img src="images/logo-dark.jpg" alt="" class="loader-logo">
+    <span>TrueTail</span>
+  </div>
+</div>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <div class="container nav-inner">
+    <a href="#home" class="brand">
+      <span class="brand-mark"><img src="images/logo-dark.jpg" alt="TrueTail logo"></span>
+      <span class="brand-word">True<em>Tail</em></span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">Our Story</a>
+      <a href="#product">Product</a>
+      <a href="#ingredients">Ingredients</a>
+      <a href="#sizes">Sizes</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn-small nav-cta">Get In Touch</a>
+    <button class="burger" id="burger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg">
+    <div class="hero-glow"></div>
+    <canvas id="particles"></canvas>
+  </div>
+
+  <div class="container hero-inner">
+    <div class="hero-copy" data-reveal>
+      <span class="eyebrow">Natural Dog Treats · Chicken &amp; Sweet Potato</span>
+      <h1>Real Ingredients.<br><span class="accent">True</span> Love.</h1>
+      <p>Homemade with love in Lebanon — grain-free, preservative-free, and made from six real ingredients your dog can actually pronounce.</p>
+      <div class="hero-actions">
+        <a href="#product" class="btn btn-primary">Meet The Treat</a>
+        <a href="#about" class="btn btn-ghost">Our Story ↓</a>
+      </div>
+      <div class="hero-badges">
+        <span>🌿 100% Natural</span>
+        <span>🚫 Grain Free</span>
+        <span>🐾 Made In Lebanon</span>
+      </div>
+    </div>
+
+    <div class="hero-stage" data-tilt>
+      <div class="hero-stage-glow"></div>
+      <img src="images/front-pouch.jpg" alt="TrueTail chicken & sweet potato dog treats pouch" class="hero-pouch">
+      <div class="floater floater-1">🦴</div>
+      <div class="floater floater-2">🍃</div>
+      <div class="floater floater-3">🐾</div>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll-cue" aria-label="Scroll down">
+    <span></span> Scroll
+  </a>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee">
+  <div class="marquee-track">
+    <span>REAL CHICKEN</span><span>•</span><span>SWEET POTATO</span><span>•</span><span>GRAIN FREE</span><span>•</span>
+    <span>NO ARTIFICIAL ANYTHING</span><span>•</span><span>MADE IN LEBANON</span><span>•</span><span>HOMEMADE WITH LOVE</span><span>•</span>
+    <span>REAL CHICKEN</span><span>•</span><span>SWEET POTATO</span><span>•</span><span>GRAIN FREE</span><span>•</span>
+    <span>NO ARTIFICIAL ANYTHING</span><span>•</span><span>MADE IN LEBANON</span><span>•</span><span>HOMEMADE WITH LOVE</span><span>•</span>
+  </div>
+</div>
+
+<!-- ABOUT / STORY -->
+<section class="about" id="about">
+  <div class="container about-grid">
+    <div class="about-visual" data-reveal data-tilt-soft>
+      <img src="images/logo-wall.jpg" alt="TrueTail brand mark">
+      <div class="about-visual-frame"></div>
+    </div>
+    <div class="about-copy" data-reveal>
+      <span class="eyebrow">About Us</span>
+      <h2>Hi, we're TrueTail.<br>Here's our story.</h2>
+      <p>
+        TrueTail started with a simple, stubborn belief: the dogs and cats who
+        give us their whole hearts deserve treats made with the same honesty
+        we'd want on our own plate. No fillers hiding behind a science-y name,
+        no "flavors" that are really just chemistry. Just chicken, sweet
+        potato, oats, egg, olive oil — ingredients you can picture, from a
+        kitchen you could actually stand in.
+      </p>
+      <p>
+        Every batch is small, homemade, and sealed in a resealable
+        stand-up pouch built to keep things fresh — not because it looks
+        good on a shelf (though, honestly, it does), but because your dog's
+        treats deserve the same freshness you'd want for your own snacks.
+      </p>
+      <div class="about-stats">
+        <div><strong>100%</strong><span>Natural Ingredients</span></div>
+        <div><strong>0</strong><span>Artificial Preservatives</span></div>
+        <div><strong>6</strong><span>Real Ingredients</span></div>
+        <div><strong>🇱🇧</strong><span>Made In Lebanon</span></div>
+      </div>
+      <a href="#ingredients" class="link-arrow">See what's inside →</a>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="features" id="features">
+  <div class="container">
+    <div class="section-head" data-reveal>
+      <span class="eyebrow">Why Pet Parents Trust Us</span>
+      <h2>Built around the little things that matter</h2>
+    </div>
+
+    <div class="feature-grid">
+      <div class="feature-card" data-reveal data-tilt-card>
+        <div class="feature-card-inner">
+          <div class="feature-icon">
+            <svg viewBox="0 0 64 64"><path d="M32 6c-9 0-15 7-15 15 0 9 8 13 8 22 0 8 3 15 7 15s7-7 7-15c0-9 8-13 8-22 0-8-6-15-15-15Z" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M20 20c-4-3-9-2-11 2s0 9 5 10" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M44 20c4-3 9-2 11 2s0 9-5 10" fill="none" stroke="currentColor" stroke-width="2.5"/></svg>
+          </div>
+          <h3>Premium Packaging</h3>
+          <p>A resealable stand-up pouch that keeps every treat fresh and delicious, bag after bag.</p>
+        </div>
+      </div>
+
+      <div class="feature-card" data-reveal data-tilt-card>
+        <div class="feature-card-inner">
+          <div class="feature-icon">
+            <svg viewBox="0 0 64 64"><rect x="10" y="14" width="44" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="2.5"/><rect x="10" y="27" width="44" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="2.5"/><rect x="10" y="40" width="44" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="2.5"/></svg>
+          </div>
+          <h3>Food-Grade Material</h3>
+          <p>Multi-layer barrier protection locks in freshness and keeps quality consistent, every batch.</p>
+        </div>
+      </div>
+
+      <div class="feature-card" data-reveal data-tilt-card>
+        <div class="feature-card-inner">
+          <div class="feature-icon">
+            <svg viewBox="0 0 64 64"><rect x="8" y="16" width="48" height="32" rx="4" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M8 26h48" stroke="currentColor" stroke-width="2.5"/></svg>
+          </div>
+          <h3>Clear Window</h3>
+          <p>See the real, wholesome treats inside before they ever reach the bowl — nothing to hide.</p>
+        </div>
+      </div>
+
+      <div class="feature-card" data-reveal data-tilt-card>
+        <div class="feature-card-inner">
+          <div class="feature-icon">
+            <svg viewBox="0 0 64 64"><path d="M26 8h12v8h-12z" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M22 16h20l4 6v30a4 4 0 0 1-4 4H22a4 4 0 0 1-4-4V22Z" fill="none" stroke="currentColor" stroke-width="2.5"/></svg>
+          </div>
+          <h3>Perfect Size</h3>
+          <p>200g of everyday goodness — just right for daily treats and maximum freshness.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCT SHOWCASE -->
+<section class="product" id="product">
+  <div class="container">
+    <div class="section-head light" data-reveal>
+      <span class="eyebrow">The Product</span>
+      <h2>Chicken &amp; Sweet Potato Treats</h2>
+      <p>Every pouch, front and back — nothing to hide, everything to love.</p>
+    </div>
+
+    <div class="product-showcase">
+      <div class="product-card big" data-reveal data-tilt-card>
+        <img src="images/front-pouch.jpg" alt="Front of TrueTail pouch">
+        <span class="product-tag">Front</span>
+      </div>
+      <div class="product-card big" data-reveal data-tilt-card>
+        <img src="images/back-pouch.jpg" alt="Back of TrueTail pouch, ingredients & feeding guide">
+        <span class="product-tag">Back</span>
+      </div>
+      <div class="product-card" data-reveal data-tilt-card>
+        <img src="images/treats-closeup.jpg" alt="Close up of bone-shaped dog treats">
+        <span class="product-tag">Inside</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INGREDIENTS -->
+<section class="ingredients" id="ingredients">
+  <div class="container">
+    <div class="section-head" data-reveal>
+      <span class="eyebrow">Simple Ingredients, Healthy Pets</span>
+      <h2>What's actually inside</h2>
+    </div>
+
+    <div class="ingredients-grid">
+      <div class="ingredients-list" data-reveal>
+        <h3>Ingredients</h3>
+        <ul class="chip-list">
+          <li>🍗 Chicken</li>
+          <li>🍠 Sweet Potato</li>
+          <li>🌾 Oat Flour</li>
+          <li>🥥 Coconut Glycerin</li>
+          <li>🥚 Egg</li>
+          <li>🫒 Olive Oil</li>
+        </ul>
+
+        <h3>Guaranteed Analysis <small>(per 100g)</small></h3>
+        <div class="analysis-table">
+          <div><span>Crude Protein (min)</span><strong>28%</strong></div>
+          <div><span>Crude Fat (min)</span><strong>12%</strong></div>
+          <div><span>Crude Fiber (max)</span><strong>3%</strong></div>
+          <div><span>Moisture (max)</span><strong>10%</strong></div>
+          <div><span>Ash (max)</span><strong>5%</strong></div>
+        </div>
+      </div>
+
+      <div class="feeding-guide" data-reveal>
+        <h3>Feeding Guide</h3>
+        <div class="feed-card">
+          <span class="feed-icon">🐕</span>
+          <div><strong>Small Dogs</strong><em>1 – 10 kg</em><p>2 – 4 treats per day</p></div>
+        </div>
+        <div class="feed-card">
+          <span class="feed-icon">🐕‍🦺</span>
+          <div><strong>Medium Dogs</strong><em>10 – 25 kg</em><p>4 – 7 treats per day</p></div>
+        </div>
+        <div class="feed-card">
+          <span class="feed-icon">🐩</span>
+          <div><strong>Large Dogs</strong><em>25 kg+</em><p>7 – 10 treats per day</p></div>
+        </div>
+        <div class="storage-note">
+          <strong>Storage:</strong> Store in a cool, dry place. Reseal after opening to maintain freshness.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SIZES -->
+<section class="sizes" id="sizes">
+  <div class="container">
+    <div class="section-head" data-reveal>
+      <span class="eyebrow">Available Sizes</span>
+      <h2>Pick the pouch that fits</h2>
+    </div>
+
+    <div class="sizes-row" data-reveal>
+      <div class="size-pouch" style="--h:38%"><div class="pouch-shape"></div><span>50g</span></div>
+      <div class="size-pouch" style="--h:55%"><div class="pouch-shape"></div><span>100g</span></div>
+      <div class="size-pouch" style="--h:70%"><div class="pouch-shape"></div><span>150g</span></div>
+      <div class="size-pouch featured" style="--h:85%"><div class="pouch-shape"></div><span>200g</span><em>Best Seller</em></div>
+      <div class="size-pouch" style="--h:100%"><div class="pouch-shape"></div><span>300g</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROMISE / CTA -->
+<section class="promise" id="contact">
+  <div class="promise-bg"></div>
+  <div class="container promise-inner" data-reveal>
+    <span class="eyebrow">Our Promise</span>
+    <h2>No artificial colors, flavors, or preservatives.<br>Only real ingredients your pets deserve.</h2>
+    <div class="promise-badges">
+      <span>🌿 100% Natural</span>
+      <span>🚫 No Artificial Preservatives</span>
+      <span>🌾 Grain Free</span>
+      <span>🇱🇧 Made In Lebanon</span>
+    </div>
+    <a href="mailto:hello@truetail.pet" class="btn btn-primary btn-lg">Say Hello — hello@truetail.pet</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <span class="brand-mark"><img src="images/logo-dark.jpg" alt="TrueTail logo"></span>
+      <span class="brand-word">True<em>Tail</em></span>
+    </div>
+    <p>Natural Treats. True Love.</p>
+    <div class="footer-social">
+      <a href="https://instagram.com/truetail.pet" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://twitter.com/truetail.pet" target="_blank" rel="noopener">Twitter / X</a>
+      <a href="https://truetail.pet" target="_blank" rel="noopener">truetail.pet</a>
+    </div>
+    <p class="footer-copy">© <span id="year"></span> TrueTail. All rights reserved.</p>
+  </div>
+  <button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
